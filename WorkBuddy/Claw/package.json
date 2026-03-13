@@ -1,0 +1,24 @@
+{
+  "name": "feishu-serper-integration",
+  "version": "1.0.0",
+  "description": "飞书集成和Serper搜索API项目",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "test": "node test/test.js",
+    "feishu": "node src/server.js",
+    "deploy": "./start.sh --pm2",
+    "logs": "pm2 logs workbuddy-feishu",
+    "status": "pm2 status workbuddy-feishu"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["feishu", "lark", "serper", "api", "bot", "search"],
+  "author": "",
+  "license": "MIT"
+}
