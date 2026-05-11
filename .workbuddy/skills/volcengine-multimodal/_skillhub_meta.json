@@ -1,0 +1,12 @@
+{
+  "name": "volcengine-multimodal",
+  "displayName": "Volcengine Multimodal",
+  "description": "火山引擎即梦AI图片生成与视频生成Skill，支持 Seedream 4.6/5.0 图片生成和 Seedance 3.0/3.0 Pro 视频生成",
+  "description_zh": "火山引擎即梦AI图片生成与视频生成Skill，支持 Seedream 4.6/5.0 图片生成和 Seedance 3.0/3.0 Pro 视频生成，基于 OpenAI 兼容模式",
+  "category": "content-creation",
+  "version": "3.0.0",
+  "labels": {
+    "requires_api_key": "true"
+  },
+  "tags": ["volcengine", "doubao", "image-generation", "video-generation", "seedream", "seedance", "jimeng", "ark"]
+}
